@@ -1,0 +1,104 @@
+{
+	"id": "9d1582a5-f3e0-47cb-9bd9-9e81512c14ec",
+	"name": "Collection1",
+	"timestamp": "2021-08-01T17:16:59.047Z",
+	"collection_id": "9ec41343-23a5-42f4-85c2-df2b05f2cbde",
+	"folder_id": 0,
+	"environment_id": "9f00c2ed-7833-44cb-bf54-b272ed862805",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3c6c3c33-2f81-4230-bbfe-cbe7195a8d25",
+			"name": "pregisteruser",
+			"time": 456,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"contains email": true,
+				"contains password": true
+			},
+			"testPassFailCounts": {
+				"contains email": {
+					"pass": 2,
+					"fail": 0
+				},
+				"contains password": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				578,
+				456
+			],
+			"allTests": [
+				{
+					"contains email": true,
+					"contains password": true
+				},
+				{
+					"contains email": true,
+					"contains password": true
+				}
+			]
+		},
+		{
+			"id": "204c0115-4306-4614-a675-548e812bb9f4",
+			"name": "post Copy",
+			"time": 387,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"contains email": true,
+				"contains password": true
+			},
+			"testPassFailCounts": {
+				"contains email": {
+					"pass": 2,
+					"fail": 0
+				},
+				"contains password": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				604,
+				387
+			],
+			"allTests": [
+				{
+					"contains email": true,
+					"contains password": true
+				},
+				{
+					"contains email": true,
+					"contains password": true
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 2025,
+	"collection": {
+		"requests": [
+			{
+				"id": "3c6c3c33-2f81-4230-bbfe-cbe7195a8d25",
+				"method": "POST"
+			},
+			{
+				"id": "204c0115-4306-4614-a675-548e812bb9f4",
+				"method": "POST"
+			},
+			{
+				"id": "e4a773ef-3c15-4aed-a4c7-251a5e244d17",
+				"method": "GET"
+			}
+		]
+	}
+}

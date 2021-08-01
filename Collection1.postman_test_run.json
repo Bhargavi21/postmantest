@@ -1,0 +1,62 @@
+{
+	"id": "de18c1c1-8451-48e9-a248-969d5b697b0f",
+	"name": "Collection1",
+	"timestamp": "2021-07-30T06:30:01.078Z",
+	"collection_id": "9ec41343-23a5-42f4-85c2-df2b05f2cbde",
+	"folder_id": 0,
+	"environment_id": "9f00c2ed-7833-44cb-bf54-b272ed862805",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3c6c3c33-2f81-4230-bbfe-cbe7195a8d25",
+			"name": "pregisteruser",
+			"url": "https://reqres.in/api/register",
+			"time": 48,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				48
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "736e40fc-811d-4bf0-8987-7073cb1ca407",
+			"name": "post",
+			"url": "https://reqres.in/api/register/preprod",
+			"time": 423,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				423
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 471,
+	"collection": {
+		"requests": [
+			{
+				"id": "3c6c3c33-2f81-4230-bbfe-cbe7195a8d25",
+				"method": "GET"
+			},
+			{
+				"id": "736e40fc-811d-4bf0-8987-7073cb1ca407",
+				"method": "POST"
+			}
+		]
+	}
+}
