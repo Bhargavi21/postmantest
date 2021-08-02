@@ -1,10 +1,10 @@
 {
 	"id": "9d1582a5-f3e0-47cb-9bd9-9e81512c14ec",
 	"name": "Collection1",
-	"timestamp": "2021-08-01T17:16:59.047Z",
-	"collection_id": "9ec41343-23a5-42f4-85c2-df2b05f2cbde",
+	"timestamp": "2021-08-01T04:44:39.000Z",
+	"collection_id": "15321171-9ec41343-23a5-42f4-85c2-df2b05f2cbde",
 	"folder_id": 0,
-	"environment_id": "9f00c2ed-7833-44cb-bf54-b272ed862805",
+	"environment_id": "15321171-9f00c2ed-7833-44cb-bf54-b272ed862805",
 	"totalPass": 8,
 	"totalFail": 0,
 	"results": [
